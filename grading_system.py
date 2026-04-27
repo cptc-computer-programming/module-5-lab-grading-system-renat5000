@@ -30,9 +30,9 @@ message = ""
 # - set message to "Late penalty applied."
 if was_late: 
     final_score -= 10
-    message = "Late penalty applied."
+    message = "Late penalty."
 else:
-    message = "No late penalty applied."
+    message = "No late penalty."
 
 
 
@@ -47,9 +47,9 @@ else:
 # - set message to "Extra credit applied."
 if extra_credit_completed:
     final_score += 5
-    message = "Extra credit applied."
+    message = "Extra credit."
 else:
-    message = "No extra credit applied."    
+    message = "No extra credit."    
 
 
 
